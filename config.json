@@ -11,6 +11,26 @@
       }
     },
     {
+      "type": "http",
+      "count": 10,
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "https://trade.etpgpb.ru/"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "count": 10,
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "https://gb.etpgpb.ru/"
+        }
+      }
+    },
+    {
       "type": "encrypted",
       "args": {
         "format": "json",
