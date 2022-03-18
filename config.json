@@ -1,13 +1,184 @@
 {
   "jobs": [
     {
-      "type": "tcp",
+      "type": "http",
       "args": {
         "request": {
           "method": "GET",
-          "path": "185.26.122.69:21"
+          "count": 10,
+          "path": "http://www.icentr.ru"
         },
         "interval_ms": 1
+      }
+    },
+    {
+      "type": "http",
+      "count": 10,
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "https://www.icentr.ru"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "count": 10,
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "http://rsbis.ru/elektronnaya-podpis"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "count": 10,
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "https://rsbis.ru/elektronnaya-podpis"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "count": 10,
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "http://www.stv-it.ru"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "count": 10,
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "https://www.stv-it.ru"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "count": 10,
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "http://www.kt-69.ru"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "count": 10,
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "https://www.kt-69.ru"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "count": 10,
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "http://www.24ecp.ru"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "count": 10,
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "https://www.24ecp.ru"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "count": 10,
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "http://kraskript.com"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "count": 10,
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "https://kraskript.com"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "count": 10,
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "http://www.y-center.ru"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "count": 10,
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "https://www.y-center.ru"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "count": 10,
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "http://www.rcarus.ru"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "count": 10,
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "https://www.rcarus.ru"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "count": 10,
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "http://ca.gisca.ru"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "count": 10,
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "https://ca.gisca.ru"
+        }
       }
     }
   ]
