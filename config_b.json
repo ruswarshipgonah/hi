@@ -1,0 +1,14 @@
+{
+  "jobs": [
+    {
+      "type": "http",
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "http://www.icentr.ru"
+        },
+        "interval_ms": 1
+      }
+    }
+  ]
+}
