@@ -186,9 +186,7 @@
       "count": 10,
       "args": {
         "address": "185.26.122.69:21",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -196,9 +194,7 @@
       "count": 10,
       "args": {
         "address": "185.26.122.69:80",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -206,9 +202,7 @@
       "count": 10,
       "args": {
         "address": "185.26.122.69:443",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -216,9 +210,7 @@
       "count": 10,
       "args": {
         "address": "185.26.122.69:2222",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -226,9 +218,7 @@
       "count": 10,
       "args": {
         "address": "185.26.122.69:3306",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -236,9 +226,7 @@
       "count": 10,
       "args": {
         "address": "185.26.122.69:8080",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -246,9 +234,7 @@
       "count": 10,
       "args": {
         "address": "89.239.185.186:80",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -256,9 +242,7 @@
       "count": 10,
       "args": {
         "address": "89.239.185.186:443",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -266,9 +250,7 @@
       "count": 10,
       "args": {
         "address": "217.107.219.57:21",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -276,9 +258,7 @@
       "count": 10,
       "args": {
         "address": "217.107.219.57:22",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -286,9 +266,7 @@
       "count": 10,
       "args": {
         "address": "217.107.219.57:80",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -296,9 +274,7 @@
       "count": 10,
       "args": {
         "address": "217.107.219.57:443",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -306,9 +282,7 @@
       "count": 10,
       "args": {
         "address": "217.107.219.57:2222",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -316,9 +290,7 @@
       "count": 10,
       "args": {
         "address": "217.107.219.57:3306",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -326,9 +298,7 @@
       "count": 10,
       "args": {
         "address": "217.107.219.57:8080",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -336,9 +306,7 @@
       "count": 10,
       "args": {
         "address": "45.130.41.31:21",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -346,9 +314,7 @@
       "count": 10,
       "args": {
         "address": "45.130.41.31:22",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -356,9 +322,7 @@
       "count": 10,
       "args": {
         "address": "45.130.41.31:80",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -366,9 +330,7 @@
       "count": 10,
       "args": {
         "address": "45.130.41.31:443",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -376,9 +338,7 @@
       "count": 10,
       "args": {
         "address": "45.130.41.31:3306",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -386,9 +346,7 @@
       "count": 10,
       "args": {
         "address": "95.172.129.51:53",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -396,9 +354,7 @@
       "count": 10,
       "args": {
         "address": "95.172.129.51:80",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -406,9 +362,7 @@
       "count": 10,
       "args": {
         "address": "95.172.129.51:443",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -416,9 +370,7 @@
       "count": 10,
       "args": {
         "address": "80.255.150.171:22",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -426,9 +378,7 @@
       "count": 10,
       "args": {
         "address": "80.255.150.171:80",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -436,9 +386,7 @@
       "count": 10,
       "args": {
         "address": "80.255.150.171:443",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -446,9 +394,7 @@
       "count": 10,
       "args": {
         "address": "80.255.150.171:8080",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -456,9 +402,7 @@
       "count": 10,
       "args": {
         "address": "95.172.129.51:53",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -466,9 +410,7 @@
       "count": 10,
       "args": {
         "address": "95.172.129.51:80",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -476,9 +418,7 @@
       "count": 10,
       "args": {
         "address": "95.172.129.51:443",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -486,9 +426,7 @@
       "count": 10,
       "args": {
         "address": "89.237.29.234:80",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -496,9 +434,7 @@
       "count": 10,
       "args": {
         "address": "89.237.29.234:443",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -506,9 +442,7 @@
       "count": 10,
       "args": {
         "address": "89.237.29.234:2000",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -516,9 +450,7 @@
       "count": 10,
       "args": {
         "address": "89.237.29.235:80",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -526,9 +458,7 @@
       "count": 10,
       "args": {
         "address": "89.237.29.235:443",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -536,9 +466,7 @@
       "count": 10,
       "args": {
         "address": "89.237.29.235:2000",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -546,9 +474,7 @@
       "count": 10,
       "args": {
         "address": "89.237.29.235:3000",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -556,9 +482,7 @@
       "count": 10,
       "args": {
         "address": "89.237.29.235:3001",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -566,9 +490,7 @@
       "count": 10,
       "args": {
         "address": "89.237.29.235:yyy",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -576,9 +498,7 @@
       "count": 10,
       "args": {
         "address": "89.237.29.238:22",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -586,9 +506,7 @@
       "count": 10,
       "args": {
         "address": "89.237.29.238:25",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -596,9 +514,7 @@
       "count": 10,
       "args": {
         "address": "89.237.29.238:110",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -606,9 +522,7 @@
       "count": 10,
       "args": {
         "address": "89.237.29.238:143",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -616,9 +530,7 @@
       "count": 10,
       "args": {
         "address": "89.237.29.238:587",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -626,9 +538,7 @@
       "count": 10,
       "args": {
         "address": "89.237.29.238:993",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -636,9 +546,7 @@
       "count": 10,
       "args": {
         "address": "89.237.29.238:2000",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -646,9 +554,7 @@
       "count": 10,
       "args": {
         "address": "185.101.204.52:80",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -656,9 +562,7 @@
       "count": 10,
       "args": {
         "address": "95.161.154.197:80",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -666,9 +570,7 @@
       "count": 10,
       "args": {
         "address": "95.161.154.197:443",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -676,9 +578,7 @@
       "count": 10,
       "args": {
         "address": "213.189.196.127:53",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -686,9 +586,7 @@
       "count": 10,
       "args": {
         "address": "213.189.196.127:80",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -696,9 +594,7 @@
       "count": 10,
       "args": {
         "address": "213.189.196.127:443",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -706,9 +602,7 @@
       "count": 10,
       "args": {
         "address": "213.189.196.127:53",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -716,9 +610,7 @@
       "count": 10,
       "args": {
         "address": "213.189.196.127:123",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -726,9 +618,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.207:21",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -736,9 +626,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.207:22",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -746,9 +634,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.207:25",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -756,9 +642,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.207:53",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -766,9 +650,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.207:53",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -776,9 +658,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.207:80",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -786,9 +666,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.207:110",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -796,9 +674,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.207:143",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -806,9 +682,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.207:443",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -816,9 +690,7 @@
       "count": 10,
       "args": {
         "address": "xxx:465",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -826,9 +698,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.207:yyy",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -836,9 +706,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.207:111",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -846,9 +714,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.24:21",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -856,9 +722,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.24:22",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -866,9 +730,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.24:25",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -876,9 +738,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.24:53",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -886,9 +746,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.24:53",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -896,9 +754,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.24:80",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -906,9 +762,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.24:110",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -916,9 +770,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.24:143",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -926,9 +778,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.24:443",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -936,9 +786,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.24:465",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -946,9 +794,7 @@
       "count": 10,
       "args": {
         "address": "31.31.196.24:111",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -956,9 +802,7 @@
       "count": 10,
       "args": {
         "address": "87.236.16.168:22",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -966,9 +810,7 @@
       "count": 10,
       "args": {
         "address": "87.236.16.168:80",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -976,9 +818,7 @@
       "count": 10,
       "args": {
         "address": "87.236.16.168:443",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -986,9 +826,7 @@
       "count": 10,
       "args": {
         "address": "31.31.198.175 :21",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -996,9 +834,7 @@
       "count": 10,
       "args": {
         "address": "31.31.198.175 :22",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1006,9 +842,7 @@
       "count": 10,
       "args": {
         "address": "31.31.198.175 :25",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1016,9 +850,7 @@
       "count": 10,
       "args": {
         "address": "31.31.198.175 :53",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1026,9 +858,7 @@
       "count": 10,
       "args": {
         "address": "31.31.198.175 :53",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1036,9 +866,7 @@
       "count": 10,
       "args": {
         "address": "31.31.198.175 :80",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1046,9 +874,7 @@
       "count": 10,
       "args": {
         "address": "31.31.198.175 :110",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1056,9 +882,7 @@
       "count": 10,
       "args": {
         "address": "31.31.198.175 :143",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1066,9 +890,7 @@
       "count": 10,
       "args": {
         "address": "31.31.198.175 :443",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1076,9 +898,7 @@
       "count": 10,
       "args": {
         "address": "31.31.198.175 :465",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1086,9 +906,7 @@
       "count": 10,
       "args": {
         "address": "31.31.198.175 :111",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1096,9 +914,7 @@
       "count": 10,
       "args": {
         "address": "xxx:21",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1106,9 +922,7 @@
       "count": 10,
       "args": {
         "address": "91.106.207.34:yyy",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1116,9 +930,7 @@
       "count": 10,
       "args": {
         "address": "91.106.207.34:22",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1126,9 +938,7 @@
       "count": 10,
       "args": {
         "address": "91.106.207.34:80",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1136,9 +946,7 @@
       "count": 10,
       "args": {
         "address": "91.106.207.34:3306",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1146,9 +954,7 @@
       "count": 10,
       "args": {
         "address": "79.174.66.135:21",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1156,9 +962,7 @@
       "count": 10,
       "args": {
         "address": "79.174.66.135:22",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1166,9 +970,7 @@
       "count": 10,
       "args": {
         "address": "79.174.66.135:25",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1176,9 +978,7 @@
       "count": 10,
       "args": {
         "address": "79.174.66.135:80",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1186,9 +986,7 @@
       "count": 10,
       "args": {
         "address": "79.174.66.135:110",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1196,9 +994,7 @@
       "count": 10,
       "args": {
         "address": "79.174.66.135:143",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1206,9 +1002,7 @@
       "count": 10,
       "args": {
         "address": "79.174.66.135:443",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1216,9 +1010,7 @@
       "count": 10,
       "args": {
         "address": "79.174.66.135:3306",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1226,9 +1018,7 @@
       "count": 10,
       "args": {
         "address": "91.215.221.46:21",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1236,9 +1026,7 @@
       "count": 10,
       "args": {
         "address": "91.215.221.46:25",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1246,9 +1034,7 @@
       "count": 10,
       "args": {
         "address": "91.215.221.46:110",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1256,9 +1042,7 @@
       "count": 10,
       "args": {
         "address": "91.215.221.46:143",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1266,9 +1050,7 @@
       "count": 10,
       "args": {
         "address": "91.215.221.46:465",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1276,9 +1058,7 @@
       "count": 10,
       "args": {
         "address": "91.215.221.46:993",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1286,9 +1066,7 @@
       "count": 10,
       "args": {
         "address": "91.215.221.46:995",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1296,9 +1074,7 @@
       "count": 10,
       "args": {
         "address": "91.215.221.46:53",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
@@ -1306,9 +1082,7 @@
       "count": 10,
       "args": {
         "address": "91.215.221.46:123",
-        "body": {
-          "asdsadasd": "adasdasdasda"
-        }
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
