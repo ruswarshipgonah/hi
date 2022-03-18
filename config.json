@@ -1,11 +1,11 @@
 {
   "jobs": [
     {
-      "type": "http",
+      "type": "tcp",
       "args": {
         "request": {
           "method": "GET",
-          "path": "http://www.icentr.ru"
+          "path": "185.26.122.69:21"
         },
         "interval_ms": 1
       }
