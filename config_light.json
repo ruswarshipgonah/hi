@@ -6,7 +6,7 @@
       "args": {
         "request": {
           "method": "GET",
-          "path": "https://evotor.ru"
+          "path": "https://express.dhl.ru"
         }
       }
     },
@@ -16,7 +16,7 @@
       "args": {
         "request": {
           "method": "GET",
-          "path": "evoprod.evotor.ru"
+          "path": "https://ponyexpress.ru"
         }
       }
     },
@@ -26,7 +26,7 @@
       "args": {
         "request": {
           "method": "GET",
-          "path": "https://vpn.evotor.ru"
+          "path": "https://dostavista.ru"
         }
       }
     },
@@ -36,7 +36,7 @@
       "args": {
         "request": {
           "method": "GET",
-          "path": "http://ofdp.evotor.ru"
+          "path": "https://delivery-club.ru"
         }
       }
     },
@@ -46,7 +46,7 @@
       "args": {
         "request": {
           "method": "GET",
-          "path": "http://pk.platformaofd.ru"
+          "path": "https://dotochki.com"
         }
       }
     },
@@ -56,87 +56,7 @@
       "args": {
         "request": {
           "method": "GET",
-          "path": "ns1.evotor.ru"
-        }
-      }
-    },
-    {
-      "type": "http",
-      "count": 1,
-      "args": {
-        "request": {
-          "method": "GET",
-          "path": "ns2.evotor.ru"
-        }
-      }
-    },
-    {
-      "type": "http",
-      "count": 1,
-      "args": {
-        "request": {
-          "method": "GET",
-          "path": "https://ac.atol.ru"
-        }
-      }
-    },
-    {
-      "type": "http",
-      "count": 1,
-      "args": {
-        "request": {
-          "method": "GET",
-          "path": "https://lk.atol.ru"
-        }
-      }
-    },
-    {
-      "type": "http",
-      "count": 1,
-      "args": {
-        "request": {
-          "method": "GET",
-          "path": "https://uc.atol.ru"
-        }
-      }
-    },
-    {
-      "type": "http",
-      "count": 1,
-      "args": {
-        "request": {
-          "method": "GET",
-          "path": "https://support.online.atol.ru"
-        }
-      }
-    },
-    {
-      "type": "http",
-      "count": 1,
-      "args": {
-        "request": {
-          "method": "GET",
-          "path": "https://term.atol.ru"
-        }
-      }
-    },
-    {
-      "type": "http",
-      "count": 1,
-      "args": {
-        "request": {
-          "method": "GET",
-          "path": "https://www.atol.ru"
-        }
-      }
-    },
-    {
-      "type": "http",
-      "count": 1,
-      "args": {
-        "request": {
-          "method": "GET",
-          "path": "https://online.atol.ru"
+          "path": "https://broniboy.ru"
         }
       }
     },
@@ -144,7 +64,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "185.170.207.77:443",
+        "address": "185.10.63.194:80",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -152,7 +72,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "85.170.207.63:443",
+        "address": "185.10.63.194:443",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -160,7 +80,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "185.170.204.36:443",
+        "address": "82.146.44.236:80",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -168,7 +88,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "185.170.204.85:179",
+        "address": "82.146.44.236:443",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -176,7 +96,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "185.170.204.85:19081",
+        "address": "95.163.180.40:80",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -184,7 +104,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "185.170.204.91:179",
+        "address": "95.163.180.40:443",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -192,7 +112,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "185.170.204.91:21101",
+        "address": "185.10.63.192:80",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -200,7 +120,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "185.170.204.95:80",
+        "address": "185.10.63.192:443",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -208,7 +128,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "185.170.204.95:443",
+        "address": "185.71.67.112:80",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -216,15 +136,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "185.170.204.71:53",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "udp",
-      "count": 1,
-      "args": {
-        "address": "185.170.204.71:53",
+        "address": "185.71.67.112:443",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -232,15 +144,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "185.170.204.72:53",
-        "body": "{{ random_payload 100 }}"
-      }
-    },
-    {
-      "type": "udp",
-      "count": 1,
-      "args": {
-        "address": "185.170.204.72:53",
+        "address": "185.215.4.10:80",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -248,7 +152,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "5.188.186.133:443",
+        "address": "185.215.4.10:443",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -256,7 +160,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "5.188.186.134:443",
+        "address": "5.61.236.230:80",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -264,7 +168,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "5.188.186.133:443",
+        "address": "5.61.236.230:443",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -272,7 +176,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "5.188.186.134:443",
+        "address": "128.140.175.200:80",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -280,7 +184,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "45.134.27.204:443",
+        "address": "128.140.175.200:443",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -288,7 +192,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "93.174.48.173:443",
+        "address": "128.140.175.205:80",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -296,7 +200,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "178.57.71.182:443",
+        "address": "128.140.175.205:443",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -304,7 +208,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "178.57.71.189:443",
+        "address": "195.42.165.13:80",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -312,7 +216,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "178.57.71.190:443",
+        "address": "195.42.165.13:443",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -320,7 +224,7 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "185.31.134.103:443",
+        "address": "185.137.235.138:80",
         "body": "{{ random_payload 100 }}"
       }
     },
@@ -328,7 +232,23 @@
       "type": "tcp",
       "count": 1,
       "args": {
-        "address": "185.31.134.104:443",
+        "address": "185.137.235.138:443",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "82.202.251.98:80",
+        "body": "{{ random_payload 100 }}"
+      }
+    },
+    {
+      "type": "tcp",
+      "count": 1,
+      "args": {
+        "address": "82.202.251.98:443",
         "body": "{{ random_payload 100 }}"
       }
     }
